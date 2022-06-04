@@ -1,3 +1,76 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+/* Hero-image */
+.hero-image{
+    background-image: url('/img/header-1/header-background.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* Hero-image ends*/
+
+/* Navbar */
+.text-sup{
+    font-size: 10px;
+}
+.nav-link{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgba(17, 24, 39, 1);
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    box-shadow: none;
+}
+/* Navbar ends*/
+
+/* Header-1 Content */
+.header-1>.header-box-1>.card{
+    background-color: transparent;
+    border: none;
+}
+.header-1>.header-box-1>.card>.card-body>.card-title{
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    color: rgba(17, 24, 39, 1);
+}
+.header-1>.header-box-1>.card>.card-body>.card-text{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: rgba(55, 65, 81, 1);
+}
+.btn-get-started{
+    background-color:rgba(124, 58, 237, 1) ;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.text-watch-video{
+    color: rgba(124, 58, 237, 1);
+}
+
+.play{
+    border: 1px solid rgba(124, 58, 237, 1);
+    border-radius: 50%;
+    color: rgba(124, 58, 237, 1);
+    padding: 5px 5px 5px 7px;
+}
+
+/* Header-1 Content End */
