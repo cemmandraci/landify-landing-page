@@ -107,3 +107,81 @@ body{
     color: rgba(17, 24, 39, 1);
 }
 /*  Tailor-Made Features End */
+
+/* Real Stories-Comments  */
+.bg-realStories{
+    background: #D5FAFC;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.logo-66{
+    position: absolute;
+    opacity: 0.1;
+}
+.header-realStories{
+    margin-top: 11px;
+    margin-left: 58px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.025em;
+    
+}
+.header-realStories-text{
+    margin-top: 11px;
+    margin-left: 58px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* Airbnb Card Features -  Hotspot Card Features - Strapi Card Features */
+.card-airbnb{
+    height: 312px;
+    width: 488px;
+    margin-top: 140px;
+    box-shadow: 0px 4px 8px -2px rgba(17, 24, 39, 0.1), 0px 2px 4px -2px rgba(17, 24, 39, 0.06);
+}
+.airbnb-text,
+.hotspot-text,
+.strapi-text{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.airbnb-title,
+.hotspot-title,
+.strapi-title{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgba(17, 24, 39, 1);
+}
+.airbnb-job,
+.hotspot-job,
+.strapi-job{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(107, 114, 128, 1);
+}
+
+.hotspot-features {
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.card-hotspot{
+    height:380px;
+}
+.card-strapi{
+    height: 256px;
+    width: 384px;
+}
+
+ /* Real Stories-Comments end */
