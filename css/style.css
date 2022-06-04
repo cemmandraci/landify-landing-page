@@ -220,3 +220,24 @@ body{
     color: rgba(17, 24, 39, 1);
 }
  /* Achievements end*/
+
+ /* Manage */
+.bg-manage{
+    background-color: rgba(29, 181, 190, 1);
+}
+.manage-title{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.025em;
+    color: rgba(17, 24, 39, 1);
+}
+.manage-text{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(17, 24, 39, 1);
+}
+ /* Manage end*/
