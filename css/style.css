@@ -241,3 +241,13 @@ body{
     color: rgba(17, 24, 39, 1);
 }
  /* Manage end*/
+
+ /* Footer */
+.bg-footer{
+    background: #000000;
+}
+.footer-copyright,
+.footer-getapp-text{
+    color: rgba(209, 213, 219, 1);
+}
+ /* Footer end*/
