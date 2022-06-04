@@ -1,15 +1,157 @@
 
-/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {  }
+ /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+
+    .navbar-cards{
+        display: none !important;
+    }
+
+    /* Header-1 Content */
+    .header-1>.header-box-1>.card>.card-body>.card-title{
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: -0.025em;
+        color: rgba(17, 24, 39, 1);
+    }
+
+    .header-1>.header-box-1>.card>.card-body>.card-text{
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        color: rgba(55, 65, 81, 1);
+    }
+    /* Header-1 Content ends */
+
+    /* Achievements */
+    .header-achievements{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .text-achievements{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .title-icon-achievement{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    /* Achievements */
+
+
+ }
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {  }
+@media (max-width: 767.98px) {
+    
+    /* Navbar */
+    .navbar-nav{
+        text-align: center !important;
+        color: rgba(17, 24, 39, 1);
+    }
+    /* Navbar ends*/
+
+    /* Header-1 Content */
+    .header-1>.header-box-1>.card>.card-body>.card-title{
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: -0.025em;
+        color: rgba(17, 24, 39, 1);
+    }
+
+    .header-1>.header-box-1>.card>.card-body>.card-text{
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        color: rgba(55, 65, 81, 1);
+    }
+    /* Header-1 Content ends */
+
+    /* Tailor-Made Features */
+    .header-tailor{
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: -0.025em;
+        color: rgba(17, 24, 39, 1);
+    }
+    .header-tailor-features{
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        color: rgba(17, 24, 39, 1);
+    }
+    .text-tailor{
+        padding: 0px;
+    }
+    /* Tailor-Made Features end */
+
+    
+}
 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {  }
+@media (max-width: 991.98px) { 
+
+    /* Real Stories-Comments  */
+    .header-realStories{
+        margin-top: 11px;
+        margin-left: 0px;
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: -0.025em; 
+    }
+    .header-realStories-text{
+        margin-top: 11px;
+        margin-left: 0px;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    .airbnb-features{
+        margin-bottom: 10px !important;
+    }
+    .card-airbnb{
+        width: 100%;
+    }
+    .hotspot-features {
+        margin: 40px 0px;
+    }
+    .card-hotspot{
+        width: 100%;
+    }
+    .card-strapi{
+        width: 100%;
+    }
+    /* Real Stories-Comments end */
+
+    /* Achievements */
+    .header-achievements{
+        font-size: 36px;
+        line-height: 45px;
+        color: rgba(17, 24, 39, 1);
+    }
+    .title-icon-achievement{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    /* Achievements */
+
+ }
 
 /* // `xl` applies to large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {  }
+@media (max-width: 1199.98px) { }
 
-/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {  }
