@@ -74,3 +74,36 @@ body{
 }
 
 /* Header-1 Content End */
+
+/*  Tailor-Made Features  */
+.header-tailor{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.025em;
+    color: rgba(17, 24, 39, 1);
+}
+.text-tailor{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 0px 200px;
+    color: rgba(17, 24, 39, 1);
+}
+.header-tailor-features{
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: rgba(17, 24, 39, 1);
+}
+.text-tailor-features{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(17, 24, 39, 1);
+}
+/*  Tailor-Made Features End */
